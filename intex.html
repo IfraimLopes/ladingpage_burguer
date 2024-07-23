@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SRC/style/style.css">
+    <link rel="stylesheet" href="SRC/style/nav_bar.css">
+    <link rel="stylesheet" href="SRC/style/home.css">
+    <link rel="stylesheet" href="SRC/style/animacoes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="SRC/style/testemonials.css">
+    <link rel="shortcut icon" href="SRC/style/img/77-removebg-preview.png" type="image/x-icon">
+   <link rel="stylesheet" href="menu.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Projecto Loja</title>
+    
+</head>
+<body>
+
+    <header>
+        <nav id="navbar">
+            <i class="fa fa-bars" aria-hidden="true" id="nav_logo">Food</i>
+
+            <ul id="nav_list">
+                <li class="list_intem active">
+                    <a href="#home">Início</a>
+                </li>
+            </ul>
+            
+            <ul id="nav_list">
+                <li class="list_intem">
+                    <a href="#menu">Cardapío</a>
+                </li>
+            </ul>
+
+            <ul id="nav_list">
+                <li class="list_intem">
+                    <a href="#testmonials">Avaliações</a>
+                </li>
+            </ul>
+            
+            <button class="btn-default">
+             Peça Aqui
+            </button>
+
+            <button id="mobine-btn" >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <div id="mobile-menu">
+            <ul id="mobile-nav_list">
+                <li class="list_item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="list_item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="list_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+                <li class="list_item">
+                    <button class="btn-default">
+                        Peça Aqui
+                    </button>
+                </li>
+            </ul>
+        </div>
+     
+    </header>
+ 
+
+ <main id="content">
+
+    <section id="home" >
+        <div class="shape"></div>
+        
+        <div id="cta">
+            <h1 id="title">
+                O Sabor vai até <span>você</span>
+            </h1>
+            <p class="descricion">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.  <br>Nostrum reprehenderit, quas, perferendis enim fuga, <br>voluptas illo  <br>laboriosam repudiandae ullam officia consectetur <br> sunt nisi ipsa quam delectus <br> alias exercitationem quos itaque!
+            </p>
+
+            <div id="cta_button">
+                <a href="#" class="btn-default">
+                    Ver Cardapío
+                </a>
+                
+                <a href="tel: +244927217208" id="phone_button">
+                    <button class="btn-default">
+                        <i class="fa-solid fa-phone"></i>
+                      
+                    </button>  
+                    (+244) 927217208
+                </a>
+            </div>
+
+            <div class="social">
+                <div class="social-media">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    
+                </div>
+                <div class="social-media">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    
+                </div>
+                <div class="social-media">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                            
+                </div>
+                        </div>
+            </div>
+
+        <div id="banner" >
+       <img src="SRC/style/img/quer_fazer_hamburger_artesanal_perfeito_2019-05-14-removebg-preview.png" alt="picanha_RA" >
+        </div>
+
+    </section>
+   
+    <section id="menu" class="hidden">
+        <h2 class="section-title">
+            Cardapío
+        </h2>
+        <h3 class="section-subtitle">
+            Nosso burguer especiais
+        </h3>
+
+       <div class="vel">
+        <div class="dishes">
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="SRC/style/img-burguer/lanche-na-chapa-1024x768-removebg-preview (1).png" class="img1" alt="burguer">
+                
+                <h3 class="dish-title">
+                    burguer-Top
+                </h3>
+
+                <span class="dish-description">
+                    Lorem ipsum dolor sit amet consectetur adipis
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <span>(+500)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>4.000,00Kz</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="dishes">
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="SRC/style/img-burguer/OIP__100-removebg-preview.png"   class="img2" alt="burguer">
+                
+                <h3 class="dish-title">
+                    burguer-Ultra
+                </h3>
+
+                <span class="dish-description">
+                    Lorem ipsum dolor sit amet consectetur adipis
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <span>(+500)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>7.000,00Kz</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="dishes">
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <img src="SRC/style/img-burguer/R-removebg-preview (1).png" alt="burguer" class="img3">
+                
+                <h3 class="dish-title">
+                    burguer-Mega
+                </h3>
+
+                <span class="dish-description">
+                    Lorem ipsum dolor sit amet consectetur adipis
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <span>(+500)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>9.000,00Kz</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="hidden">
+        <img src="SRC/style/img-chef/b3ac1f6a16bad368e694e17dcd592862-removebg-preview.png" id="testimonials-chef" alt="chef">
+
+        <div id="testimonials-content">
+            <h2 class="section-title">
+                Depoimentos
+            </h2>
+            <h3 class="section-subtitle">
+                O que os clientes Falam de Nós
+            </h3>
+            <div id="feedbacks">
+                <div class="feedback">
+             <div class="feedback-content">
+                <p>
+                    Ifraim Lutónadio Lopes
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, earum provident
+                </p>
+             </div>
+                </div>
+            </div>
+            <div id="feedbacks">
+                <div class="feedback">
+             <div class="feedback-content">
+                <p>
+                   Eduardo Lopes
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, earum provident
+                </p>
+             </div>
+                </div>
+            </div>
+            <button class="btn-default">
+                Ver mais Avaliações
+            </button>
+        </div>
+    </section>
+ </main>
+
+ <footer>
+   <div id="foot-items">
+    <span id="copyright">
+        &copy 2024 Ifraim Lutónadio Lopes
+    </span>
+   </div>
+ </footer>
+
+
+</body>
+<script src="javascript/script.js"></script>
+</html>

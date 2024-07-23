@@ -1,0 +1,55 @@
+p{
+    animation: appear;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        translate: -100vw 0;
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+#testimonials-chef{
+    animation: reveal 1ms ease-in-out both;
+    animation-timeline: view();
+    animation-range: entry 25% cover 50%;
+}
+
+@keyframes reveal {
+    from{
+        opacity: 0;
+        clip-path: inset(45% 20% 45% 20%);
+    }
+
+    to{
+        opacity: 1;
+        clip-path: inset(0% 0% 0% 0%);
+    }
+
+}
+
+.dishes{
+    animation: dis 3s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;   
+}
+
+@keyframes dis{
+    from{
+        opacity: 0;
+        translate: -70vw 0;
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
